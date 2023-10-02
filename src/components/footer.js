@@ -54,11 +54,8 @@ const footer = () => {
           </div>
           <div className="right">
               <div className="one">
-                <span className="block underline text-white uppercase text-blueGray-500 text-sm font-semibold mb-2">
-                  Useful Links
-                </span>
-                <ul className="list-unstyled">
-                  <li>
+                <h1>Useful Links</h1>
+                <div className="item">
                     <Link
                       className="link"
                       to="/about"
@@ -66,8 +63,6 @@ const footer = () => {
                     >
                       About Us
                     </Link>
-                  </li>
-                  <li>
                     <Link
                       className="link"
                       to="https://www.github.com/jamal108"
@@ -75,15 +70,13 @@ const footer = () => {
                     >
                       Github
                     </Link>
-                  </li>
-                </ul>
+                    </div>
               </div>
               <div className="two">
-                <span className="efv">
+                <h1 className="efv">
                   Other Resources
-                </span>
-                <ul className="list-unstyled">
-                  <li>
+                </h1>
+                <div className="item">
                     <Link
                     className='link'
                       href="/contact-us"
@@ -91,8 +84,7 @@ const footer = () => {
                     >
                       Contact Us
                     </Link>
-                  </li>
-                </ul>
+                    </div>
               </div>
             </div>
         </div>
