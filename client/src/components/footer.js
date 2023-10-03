@@ -20,7 +20,7 @@ const footer = () => {
               >
                 <Link
                   className="flex justify-center"
-                  to="https://www.twitter.com/jamal_twts"
+                  to="http://www.twitter.com/jamal_twts"
                   aria-label="Twitter Link"
                 >
                   <FaTwitter className='icon' aria-label="Twitter Link" />
@@ -31,7 +31,7 @@ const footer = () => {
               >
                 <Link
                   className="flex justify-center"
-                  to="https://www.facebook.com"
+                  to="http://www.facebook.com"
                   aria-label="Facebook Link"
                 >
                   <FaFacebook className='icon' aria-label="Facebook Link" />
@@ -44,7 +44,7 @@ const footer = () => {
               >
                 <Link
                   className="flex justify-center"
-                  to="https://www.github.com/jamal108"
+                  to="http://www.github.com/jamal108"
                   aria-label="Github Link"
                 >
                   <FaGithub className='icon' aria-label="Github Link" />
@@ -65,7 +65,7 @@ const footer = () => {
                     </Link>
                     <Link
                       className="link"
-                      to="https://www.github.com/jamal108"
+                      to="http://www.github.com/jamal108"
                       aria-label="Github Link"
                     >
                       Github
