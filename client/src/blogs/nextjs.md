@@ -1,14 +1,3 @@
----
-title: "A Deep dive into Advantages of Next.js compared to React.js"
-date: "2023-10-2"
-categories: 
-  - "react"
-  - "next"
-  - "web-development"
-coverImage: "https://ik.imagekit.io/waystoweb/waystoweb/20/Copy-of-thumbnail-1.jpg?updatedAt=1682356741746"
-author: "Jamal Mydeen"
-excerpt: "Why do you need to use React Fragments? What are the benefits of using fragments over divs? & Why not to use HTML elements?"
----
 
 In today’s fast-paced world, technology is advancing at an unprecedented rate, and one of the most dynamic and rapidly evolving fields is web development.
 The web development landscape has expanded significantly in recent years, driven by the increasing demand for innovative and interactive online experiences.
