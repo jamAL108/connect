@@ -98,7 +98,7 @@
   }
   
   .markdown {
-    font-size: 1.15rem;
+    font-size: 1.115rem;
     line-height: 1.625; 
     font-weight: 500;
   }
@@ -115,7 +115,7 @@
   height: auto;
   }
   .markdown h2 {
-    font-size: 1.875rem; /* 30px */
+    font-size: 1.75rem; /* 30px */
     line-height: 2.25rem; /* 36px */
     margin-top: 3rem;   /* Equivalent to mt-12 in Tailwind CSS */
     margin-bottom: 1rem;
