@@ -1,0 +1,63 @@
+  @keyframes skeleton-loading {
+    0% {
+      background-color: #aaabad;
+    }
+    100% {
+      background-color: #ced0d6;
+    }
+  }
+
+.Skeleton{
+    width: 100%;
+    margin-top: 10vh;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 2rem;
+}
+.Skeleton .up{
+    width: 78%;
+    height: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 1rem;
+    /* border: 1px solid red; */
+}
+
+.Skeleton .up .box1{
+    width: 100%;
+    height: 20%;
+    animation: skeleton-loading 2s linear infinite alternate;
+    color: black;
+    border-radius: 2px;
+}
+
+.Skeleton .down{
+    width: 78%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+
+
+.Skeleton #f1{
+    height: 40%;
+}
+.Skeleton #f2{
+    height: 25%;
+}
+
+.Skeleton .down .boxl{
+    width: 100%;
+    height: 20%;
+    animation: skeleton-loading 2s linear infinite alternate;
+    color: black;
+    border-radius: 2px;
+}

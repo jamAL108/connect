@@ -5,6 +5,7 @@ import markdownToHtml from "../utils/markdownToHtml";
 import './blog.css'
 import Navbar from '../components/navbar';
 import Footer from '../components/footer';
+import Skeleton from '../components/skeleton';
 const Blog = () => {
     const [content , setcontent] = useState("");
     const [info , setinfo]= useState([]);
@@ -30,6 +31,8 @@ const Blog = () => {
   return (
     <div className="Blog">
       <Navbar/>
+      {content.length!==0 ? (
+        <>
         <div className="box" >
         <h1>{info.title}</h1>
         <div className="queue">
@@ -42,6 +45,10 @@ const Blog = () => {
             className="markdown"
             dangerouslySetInnerHTML={{ __html: content }}
           />
+        </>
+          ) : (
+            <Skeleton/>
+          )}
           <Footer/>
         </div>
   )
