@@ -2,6 +2,7 @@ import React from 'react'
 import Prev from '../utils/prev';
 import './getallblogs.css'
 import { useNavigate } from 'react-router-dom';
+import DateFormatter from '../utils/DateFormatter'
 const GetAllBlog = () => {
   const navigate = useNavigate();
   console.log(Prev);
@@ -14,12 +15,12 @@ const GetAllBlog = () => {
      Prev.map((data,idx)=>(
       <div key={idx} className="box" onClick={(e)=>{
         e.preventDefault()
-        localStorage.setItem("blogname",JSON.stringify(data.github));
-        navigate(`/blogs/${data.title}`)
+        localStorage.setItem("blog",JSON.stringify(data));
+        navigate(`/blog/${data.title}`)
       }}>
         <img src={data.coverImage} alt="gre" />
         <h1>{data.title}</h1>
-        <p>{data.date}</p>
+        <p>{DateFormatter(data.date)}</p>
         <h2>{data.excerts}</h2>
       </div>
     )))}
