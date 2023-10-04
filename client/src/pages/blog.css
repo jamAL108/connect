@@ -110,10 +110,15 @@
     margin-bottom: 6;
     color: black;
   }
-  .markdown blockquote {
-  overflow: visible; 
-  height: auto;
+
+  .markdown blockquote{
+    /* color: #428bca; */
+    border-left: 5px solid #202938;
+    padding-left: 0.6rem;
   }
+
+
+
   .markdown h2 {
     font-size: 1.75rem; /* 30px */
     line-height: 2.25rem; /* 36px */
