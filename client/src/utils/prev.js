@@ -6,7 +6,7 @@ const data=[
      author:"Jamal Mydeen",
      excerts:"Why do you need to use React Fragments? What are the benefits of using fragments over divs? & Why not to use HTML elements?",
      github: "https://raw.githubusercontent.com/jamAL108/connect/main/client/src/blogs/nextjs.md",
-     coverImage:"https://firebasestorage.googleapis.com/v0/b/blogs-8e84a.appspot.com/o/images%2FUntitled%20design%20(12).png?alt=media&token=bc691953-1e84-4da5-939a-7477bbe8f66a&_gl=1*zpwuz2*_ga*MTcxNDE5NzgzLjE2ODcwNzU0MTQ.*_ga_CW55HF8NVT*MTY5NjQzODE4MS4xOS4xLjE2OTY0MzgzODEuMTYuMC4w"
+     coverImage:"https://firebasestorage.googleapis.com/v0/b/blogs-8e84a.appspot.com/o/images%2FUntitled%20design%20(13).png?alt=media&token=425e916d-c093-48a0-bce9-b722d5332b5a&_gl=1*1oyvsnb*_ga*MTcxNDE5NzgzLjE2ODcwNzU0MTQ.*_ga_CW55HF8NVT*MTY5NjQzODE4MS4xOS4xLjE2OTY0Mzg2MjAuMjguMC4w"
    },{
     title:"A Deep dive into Advantages of Next.js compared to React.js",
     date:"2023-10-2",
