@@ -78,6 +78,7 @@ background-color:yellow;
     border-radius:4px;
 }
   .markdown pre code {
+      background-color:yellow;
     color: rgb(209, 209, 209);
   }
   
