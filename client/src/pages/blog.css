@@ -115,7 +115,8 @@
      color: #428bca; 
     border-left: 5px solid #202938;
     padding-left: 0.6rem;
-      background-color:#ced0d6; 
+      margin-left:0rem;
+ 
     border-radius: .4rem;
   
   }
