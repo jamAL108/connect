@@ -57,7 +57,8 @@
 
 .markdown code {
     color: grey;
-    background-color:#FFFFED;
+    background-color:yellow;
+    border-radius:4px;
     /* border: 1px solid grey; */
     /* padding: 1rem; */
     /* background-color: ; */
