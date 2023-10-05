@@ -5,7 +5,7 @@ The web development landscape has expanded significantly in recent years, driven
 React.js is a popular framework of JavaScript to work on with Front-End Development . The introduction of React.js gave a solid boost in web development .
 React.js provides content reusability option , its creates a virtual DOM through which the updates in states/props are reflected in webpage quickly .
 
-Next.js is a React.js framework . It is a `Full-Stack framework` ,can be used for both front-end and Back-end work
+Next.js is a React.js framework . It is a <mark>Full-Stack framework</mark> ,can be used for both front-end and Back-end work
 
 Next.js can be installed using the command : `npx create-next-app app-name`
 
