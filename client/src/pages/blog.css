@@ -72,6 +72,11 @@
     border-radius: .4rem;
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
   }
+
+.markdown mark{
+background-color:yellow;
+    border-radius:4px;
+}
   .markdown pre code {
     color: rgb(209, 209, 209);
   }
