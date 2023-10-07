@@ -5,7 +5,7 @@ The web development landscape has expanded significantly in recent years, driven
 React.js is a popular framework of JavaScript to work on with Front-End Development . The introduction of React.js gave a solid boost in web development .
 React.js provides content reusability option , its creates a virtual DOM through which the updates in states/props are reflected in webpage quickly .
 
-Next.js is a React.js framework . It is a Full-Stack framework ,can be used for both front-end and Back-end work
+Next.js is a React.js framework . It is a `Full-Stack framework` ,can be used for both front-end and Back-end work
 
 Next.js can be installed using the command : `npx create-next-app app-name`
 
@@ -17,7 +17,7 @@ In React.js the routing is carried out by using a package called react-router-Do
 
 We just place all our Pages inside Route element and give it a path (a URL) and then cover it up with Routes , and then cover our entire app component inside Browser-Router which help in Routing
 
-Meanwhile, Next.js supports file-based routing. When we look into the Next.js folder structure, we can see a folder called “app”. 
+Meanwhile, Next.js supports `file-based routing`. When we look into the Next.js folder structure, we can see a folder called “app”. 
 This is where we place all our website pages. For example, if we want to create a login page, we simply need to create a folder named “login” inside the “app” folder.
 Inside this “login” folder, we have to create either page.js or page.ts.
 
@@ -26,15 +26,15 @@ Inside this “login” folder, we have to create either page.js or page.ts.
 
 ## 2. Rendering -
 > *The process of generating and displaying the visual representation of a web page or web application in a user’s web browser*
-React.js follows Client-side-rendering and Next.js follows Server-side-rendering.
+React.js follows `Client-side-rendering` and Next.js follows `Server-side-rendering`.
 
 Client-side-rendering :- Whenever the user request for any HTML then server Sends all the HTML, CSS, JavaScript files to the user’s web browser.
 The user’s web browser then renders all these files and create a proper HTML and serve it to the user.
 
-Server-side-rendering :- Server-side-rendering is a part of pre-rendering , in which whenever user request for any HTML then server itself generates the final HTML and give it to user’s browser .
+Server-side-rendering :- Server-side-rendering is a part of `pre-rendering` , in which whenever user request for any HTML then server itself generates the final HTML and give it to user’s browser .
 For Every request a new rendering happens.
 
-The advantage of server-side-rendering is that <mark>SEO</mark> (Search Engine Optimization ) easily gets the server side rendered data which helps to rank ahead in SEO ,
+The advantage of server-side-rendering is that `SEO` (Search Engine Optimization ) easily gets the server side rendered data which helps to rank ahead in SEO ,
 this means that the website using SSR can get a higher rank / can get indexed quickly through which they can rank in the top of the google search page.
 
 Next.js provides both server-side-rendering and client-side-rendering . The by default rendering is server-side ,

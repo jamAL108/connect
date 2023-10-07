@@ -57,6 +57,8 @@
 
 .markdown code {
     color: grey;
+    background-color:#FFEFF0;
+    border-radius:4px;
     /* border: 1px solid grey; */
     /* padding: 1rem; */
     /* background-color: ; */
@@ -72,7 +74,13 @@
     border-radius: .4rem;
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
   }
+
+.markdown mark{
+background-color:yellow;
+    border-radius:4px;
+}
   .markdown pre code {
+      background-color:yellow;
     color: rgb(209, 209, 209);
   }
   
@@ -112,9 +120,14 @@
   }
 
   .markdown blockquote{
-    /* color: #428bca; */
+     color: #428bca; 
     border-left: 5px solid #202938;
     padding-left: 0.6rem;
+      margin-left:0rem;
+ background-color:#ced0d6;
+    border-radius: .4rem;
+      width:100%;
+  
   }
 
 
