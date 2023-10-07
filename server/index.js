@@ -77,7 +77,7 @@ app.post('/mail',async(req,res)=>{
        res.status(404).send({error:eer});
      }
 })
-app.post('/unsubscribe/id',async(req,res)=>{
+app.post('/unsubscribe/:id',async(req,res)=>{
     try{
         const userId = req.params.id;
         const email = await mailing.findOne({email:id});
