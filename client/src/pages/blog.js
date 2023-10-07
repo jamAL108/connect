@@ -20,9 +20,9 @@ const Blog = () => {
     const [content , setcontent] = useState("");
     const [info , setinfo]= useState([]);
     useEffect(()=>{
-      if(JSON.parse(localStorage.getItem('blog'))!==null){
-       setinfo(JSON.parse(localStorage.getItem("blog")));
-      }else{
+      // if(JSON.parse(localStorage.getItem('blog'))!==null){
+      //  setinfo(JSON.parse(localStorage.getItem("blog")));
+      // }else{
           const param = window.location.href;
           let substringAfterLastSlash;
           let lastSlashIndex = param.lastIndexOf('/');
@@ -34,7 +34,7 @@ const Blog = () => {
           let matchingObject = Data.find(obj => obj.github.includes(substringAfterLastSlash));
           setinfo(matchingObject);
         }
-      }
+      // }
         // eslint-disable-next-line
     },[])
     useEffect(()=>{
