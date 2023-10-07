@@ -29,6 +29,9 @@ mongoose.connect(db).then(()=>{
 app.get('/',(req,res)=>{
     res.send("hello");
 })
+app.listen(port,()=>{
+    console.log("started")
+})
 app.post('/mail',async(req,res)=>{
     try{
         const nodemailer = require('nodemailer');
@@ -80,7 +83,4 @@ app.post('/unsubscribe/:id',async(req,res)=>{
         console.log(eer);
         res.status(404).send({error:eer});
     }
-})
-app.listen(port,()=>{
-    console.log("started")
 })
