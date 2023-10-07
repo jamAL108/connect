@@ -45,10 +45,11 @@ app.post('/mail',async(req,res)=>{
         });
         const recipients = await mailing.find({});
         recipients.forEach((recipient) => {
+          console.log(recipient)
             const mailOptions = {
               from: 'jamalmohideen971@gmail.com',
-              to: 'jamessies123@gmail.com',
-              subject: 'Sending an Email with Image and Link',
+              to: recipient.email,
+              subject: ' new Blog , What is Blockchain ? ',
               html: `
               <img src=${img} alt="Inline Image" />
               <p>helooooooo , New Blog is Heree... ✨</p>
@@ -59,7 +60,7 @@ app.post('/mail',async(req,res)=>{
               <p>Enjoy ,and gain Knowledge</p>
               
               <p> You can unsubscribe the notifications by entering the below Link 👇</p>
-              <a href="https://connect-server-v2kq.onrender.com/unsubscribe/:${email}">unsubcribe Link.</a>
+              <a href="https://connect-server-v2kq.onrender.com/unsubscribe/:${recipient.email}">unsubcribe Link.</a>
             `
              };
             transporter.sendMail(mailOptions, (error, info) => {
@@ -76,7 +77,7 @@ app.post('/mail',async(req,res)=>{
        res.status(404).send({error:eer});
      }
 })
-app.post('/unsubscribe/:id',async(req,res)=>{
+app.post('/unsubscribe/id',async(req,res)=>{
     try{
         const userId = req.params.id;
         const email = await mailing.findOne({email:id});
