@@ -2,9 +2,6 @@ import mongoose from "mongoose";
 const mailing = new mongoose.Schema({
     email:{
         type:String
-    },
-    unsubscribeLink:{
-        type:String
     }
 });
 
