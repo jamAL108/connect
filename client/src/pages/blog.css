@@ -133,7 +133,13 @@ background-color:yellow;
 
 
   .markdown h2 {
+    max-width: 100%;
+    width: 100%;
+    overflow: hidden; 
+    text-overflow: ellipsis;
+    white-space: nowrap;
     font-size: 1.75rem; /* 30px */
+    line-height: 1.375;
     line-height: 2.25rem; /* 36px */
     margin-top: 3rem;   /* Equivalent to mt-12 in Tailwind CSS */
     margin-bottom: 1rem;

@@ -16,7 +16,12 @@ const GetAllBlog = () => {
       <div key={idx} className="box" onClick={(e)=>{
         e.preventDefault()
         localStorage.setItem("blog",JSON.stringify(data));
-        navigate(`/blog/${data.title}`)
+        let substringAfterLastSlash;
+        let lastSlashIndex = data.github.lastIndexOf('/');
+        if (lastSlashIndex !== -1) {
+        substringAfterLastSlash = data.github.substring(lastSlashIndex + 1)
+        }
+        navigate(`/blog/${substringAfterLastSlash}`)
       }}>
         <img src={data.coverImage} alt="gre" />
         <h1>{data.title}</h1>

@@ -4,7 +4,25 @@ import Cover from '../images/cover.png'
 import Pp from '../images/pp.jpg'
 import './navbar.css'
 import CloseIcon from '@mui/icons-material/Close';
+import { useNavigate } from 'react-router-dom';
+
 const Navbar = () => {
+  // useEffect(()=>{
+  //   const loc = window.location.href;
+  //   const main = document.querySelector('.maan');
+  //   const abt = document.querySelector('.abt');
+  //   const cont = document.querySelector('.cont');
+  //   if(!loc.includes('about') && !loc.includes('contact')){
+  //       main.style.backgroundColor="#111828";
+  //       abt.style.backgroundColor="transparent";
+  //       cont.style.backgroundColor="transparent";
+  //   }else{
+  //     main.style.backgroundColor="transparent";
+  //     abt.style.backgroundColor="transparent";
+  //     cont.style.backgroundColor="transparent";
+  //   }
+  // },[])
+  const navigate = useNavigate();
     const [mobile,setmobile]=useState(false);
     const [flag,setflag] = useState(false);
     useEffect(()=>{
@@ -48,9 +66,18 @@ const Navbar = () => {
       )}
       <img className='cover' src={Cover} alt="cover" />
       <div className='amin'>
-        <h2>main</h2>
-        <h2>about</h2>
-        <h2>contact</h2>
+        <h2 className='maan' onClick={(e)=>{
+          e.preventDefault()
+          navigate('/');
+        }}>main</h2>
+        <h2 className='abt'  onClick={(e)=>{
+          e.preventDefault()
+          navigate('/about');
+        }}>about</h2>
+        <h2 className='cont' onClick={(e)=>{
+          e.preventDefault()
+          navigate('/contact');
+        }}>contact</h2>
       </div>
         <img className='pp' src={Pp} alt="pp" />
     </div>
