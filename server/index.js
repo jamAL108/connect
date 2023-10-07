@@ -60,7 +60,7 @@ app.post('/mail',async(req,res)=>{
               <p>Enjoy ,and gain Knowledge</p>
               
               <p> You can unsubscribe the notifications by entering the below Link 👇</p>
-              <a href="https://connect-server-v2kq.onrender.com/unsubscribe/:${recipient.email}">unsubcribe Link.</a>
+              <a href="https://connect-server-v2kq.onrender.com/unsubscribe/${recipient.email}">unsubcribe Link.</a>
             `
              };
             transporter.sendMail(mailOptions, (error, info) => {
