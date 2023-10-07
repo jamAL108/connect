@@ -3,7 +3,7 @@ Blockchain a `Distributed Immutable Ledger`.
 
 Internet has given as everything i.e fast communication and all but failed to provide one thing i.e `trust` which is provided by blockchain.
 
-## "Distributed Immutable Ledger" Lets understand this term with an Example -
+## #"Distributed Immutable Ledger" Lets understand this term with an Example -
 Suppose assume you went to a shop and then you don't have enough money to purchase so shopkeeper said to give the money later on and wrote your pending money in ledger book (a account book) ,
 you purchased for 500 but later on shopkeeper tricked you and changed the amount to 800 , now you dont have any solid proof that you have purchased for 500. here comes Blockchain
 
