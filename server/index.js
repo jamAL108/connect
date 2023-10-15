@@ -43,24 +43,17 @@ app.post('/mail',async(req,res)=>{
             pass: pass,
           },
         });
-        const recipients = await mailing.find({});
+       // const recipients = await mailing.find({});
+       const recipients = [ {
+        email:"jkhandwald@gmail.com"
+       }]
         recipients.forEach((recipient) => {
           console.log(recipient)
             const mailOptions = {
-              from: 'jamalmohideen971@gmail.com',
               to: recipient.email,
-              subject: ' new Blog , What is Blockchain ? ',
-              html: `
-              <img src=${img} alt="Inline Image" />
+              subject: 'New Blog Post Alert - Check it Out!',
+              htmlbody: `
               <p>helooooooo , New Blog is Heree... ✨</p>
-              <p style="font-size: 18px; font-weight:bold;">What is Blockchain ? and what are different types of servers?</p>
-              <p>The link is given below</p>
-              <a href="https://mindscrawls.vercel.app/blog/What-is-Blockchain-what-are-different-types-of-networks.md">https://mindscrawls.vercel.app/blog/What-is-Blockchain-what-are-different-types-of-networks.md</a>
-
-              <p>Enjoy ,and gain Knowledge</p>
-              
-              <p> You can unsubscribe the notifications by entering the below Link 👇</p>
-              <a href="https://connect-server-v2kq.onrender.com/unsubscribe/${recipient.email}">unsubcribe Link.</a>
             `
              };
             transporter.sendMail(mailOptions, (error, info) => {
