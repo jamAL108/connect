@@ -29,6 +29,16 @@
   color: #61dafb;
 }
 
+h1::selection , h2::selection , h3::selection , h4::selection , h5::selection , h6::selection ,p::selection {
+  background-color: #ff702a; 
+  color: white;
+}
+
+code::selection{
+  color: #ff702a;
+  background-color: #282c34;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);

@@ -12,7 +12,7 @@ const data=[
     date:"2023-10-7",
     categories:["webdev","Reactjs","nodejs"],
     author:"Jamal Mydeen",
-    excerts:"In a world increasingly dominated by digital interactions and data, the need for secure, transparent, and tamper-proof record-keeping has never been more critical. Enter blockchain, a revolutionary technology that's transforming the way we store, share, and verify information.",
+    excerts:"Enter blockchain, a revolutionary technology that's transforming the way we store, share, and verify information.",
     github:"https://raw.githubusercontent.com/jamAL108/connect/main/client/src/blogs/What-is-Blockchain-what-are-different-types-of-networks.md"
 ,
     coverImage:"https://firebasestorage.googleapis.com/v0/b/blogs-8e84a.appspot.com/o/images%2Fpic2.png?alt=media&token=efe94bfb-2777-4a47-9cfb-67e0fa3ddfb5"
