@@ -22,7 +22,7 @@ const data=[
     categories:["webdev","Reactjs","nodejs"],
     author:"Jamal Mydeen",
     excerts:"var , let and const keywords , these keywords behave differently is different scopes Lets understand the difference between these keywords",
-    github: "https://raw.githubusercontent.com/jamAL108/connect/main/src/blogs/Scope-of-var-let-const-in-Javascript.md",
+    github: "https://raw.githubusercontent.com/jamAL108/connect/main/client/src/blogs/Scope-of-var-let-const-in-Javascript.md",
     coverImage:"https://firebasestorage.googleapis.com/v0/b/blogs-8e84a.appspot.com/o/images%2Fpic3.png?alt=media&token=20bdf317-0883-46c1-a710-1486e8f758b6"
   }
 ]
