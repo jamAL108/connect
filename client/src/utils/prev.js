@@ -17,13 +17,13 @@ const data=[
 ,
     coverImage:"https://firebasestorage.googleapis.com/v0/b/blogs-8e84a.appspot.com/o/images%2Fpic2.png?alt=media&token=efe94bfb-2777-4a47-9cfb-67e0fa3ddfb5"
   },{
-    title:"A Deep dive into Advantages of Next.js compared to React.js",
-    date:"2023-10-2",
+    title:"Scope of var , let & const in Javascript",
+    date:"2023-11-2",
     categories:["webdev","Reactjs","nodejs"],
     author:"Jamal Mydeen",
-    excerts:"Why do you need to use React Fragments? What are the benefits of using fragments over divs? & Why not to use HTML elements?",
-    github: "https://raw.githubusercontent.com/jamAL108/connect/main/src/blogs/nextjs.md",
-    coverImage:"https://ik.imagekit.io/waystoweb/waystoweb/20/https://firebasestorage.googleapis.com/v0/b/blogs-8e84a.appspot.com/o/images%2FUntitled%20design%20(13).png?alt=media&token=425e916d-c093-48a0-bce9-b722d5332b5a&_gl=1*1oyvsnb*_ga*MTcxNDE5NzgzLjE2ODcwNzU0MTQ.*_ga_CW55HF8NVT*MTY5NjQzODE4MS4xOS4xLjE2OTY0Mzg2MjAuMjguMC4w"
+    excerts:"var , let and const keywords , these keywords behave differently is different scopes Lets understand the difference between these keywords",
+    github: "https://raw.githubusercontent.com/jamAL108/connect/main/src/blogs/Scope-of-var-,-let-&-const-in-Javascript.md",
+    coverImage:"https://firebasestorage.googleapis.com/v0/b/blogs-8e84a.appspot.com/o/images%2Fpic3.png?alt=media&token=20bdf317-0883-46c1-a710-1486e8f758b6"
   }
 ]
 export default data;
