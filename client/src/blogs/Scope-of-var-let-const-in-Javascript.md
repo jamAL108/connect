@@ -70,7 +70,7 @@ func()
  As previously mentioned let and const are block level scopes they can be accessed inside a block only ,
  in the upper code block we can see that c can be accessed within the block { } but cannot be accessed outside the { } scope.
 
- ### What is a block ? 
+ ## What is a block ? 
  > { } whatever code we write inside this { } is a block level code .
   ```javascript
 {
