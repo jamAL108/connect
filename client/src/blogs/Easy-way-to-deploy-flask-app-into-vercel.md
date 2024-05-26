@@ -66,14 +66,14 @@ Vercel is a leading platform for deploying frontend applications , but vercel ha
      ```
 
 After following these steps , your folder sturture should should like this:- <br/>
-my_project/      <br/>
-|                <br/>
-├── venv/              # Virtual environment directory <br/>
-├── app.py             # Your main application file   <br/>
-├── index.py           # app entry point     <br/>
-├── requirements.txt   # Dependencies file  <br/>
-├── vercel.json        # vercel config  <br/>
-└── wsgi.py            <br/>
+<p> my_project/      </p>
+<p>|                </p>
+<p>├── venv/              # Virtual environment directory </p>
+<p>├── app.py             # Your main application file   </p>
+<p>├── index.py           # app entry point     </p>
+<p>├── requirements.txt   # Dependencies file  </p>
+<p>├── vercel.json        # vercel config  </p>
+<p>└── wsgi.py            </p>
 
 ## Deploy to vercel
 Push the code onto your github , create new project in vercel import your flask project and dont make any changes in default configuration of deployment , wait for the process to complete and it will be deployed
