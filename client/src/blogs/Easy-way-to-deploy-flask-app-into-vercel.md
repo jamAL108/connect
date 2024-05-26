@@ -65,9 +65,9 @@ Vercel is a leading platform for deploying frontend applications , but vercel ha
      }
      ```
 
-After following these steps , your folder sturture should should like this:-
-my_project/
-│
+After following these steps , your folder sturture should should like this:- <br/>
+my_project/      <br/>
+|                <br/>
 ├── venv/              # Virtual environment directory <br/>
 ├── app.py             # Your main application file   <br/>
 ├── index.py           # app entry point     <br/>
