@@ -46,7 +46,7 @@ Vercel is a leading platform for deploying frontend applications , but vercel ha
          app.run(debug=True)
      ```
   3. Create vercel.json
-     ```javascript
+     ```json
      {
        "version":2,
        "builds": [
