@@ -3,10 +3,10 @@ Vercel is a leading platform for deploying frontend applications , but vercel ha
 ## Create Flask server
   1. *Create virtual python environment*
       ```python
-      pip install vitualenv  // install the package
-      virtualenv venv        // create virtual environment (Each project can have its own set of dependencies, independent of other projects.)
+      pip install vitualenv  ## install the package
+      virtualenv venv        ## create virtual environment (Each project can have its own set of dependencies, independent of other projects.)
 
-      windows > venv\Scripts\activate   // activate the virtual env
+      windows > venv\Scripts\activate   ## activate the virtual env
       linux > source ./venv/bin/activate
       ```
    2. *install flask*
@@ -30,17 +30,17 @@ Vercel is a leading platform for deploying frontend applications , but vercel ha
 
    To generate the `requirements.txt` paste this command in terminal
    ```python
-   pip freeze > requirements.txt   /// gather all dependency which your app needed into a single file 
+   pip freeze > requirements.txt   ## gather all dependency which your app needed into a single file 
    ```
 
 ## Creating vercel configs 
   1. Create index.py
      ```python
-     from wsgi import app  // index.py
+     from wsgi import app  ## index.py
      ```
   2. Create wsgi.py
      ```python 
-     from app import app    // wsgi.py
+     from app import app    ## wsgi.py
      
      if __name__ == '__main__':
          app.run(debug=True)
@@ -53,7 +53,7 @@ Vercel is a leading platform for deploying frontend applications , but vercel ha
          {
             "src":"./index.py",
             "use": "@vercel/python",
-            "config":{"runtime":"python3.10"}  /// specify your py version
+            "config":{"runtime":"python3.10"}  // specify your py version
          }
       ],
       "routes": [
