@@ -27,7 +27,7 @@ Another big advantage is AWS charge money for Lambda instance based on number of
 ![image](https://github.com/jamAL108/connect/assets/115083239/6fc6034b-0173-4536-9f43-b943c7dbe489)
 You can we the pricing in the above image , `$0.20 per 1M requests` is the chargers once the free quota ends for month.
 
-on the other hand EC2 charges hour based , if your app in up and running for 24/7 then it will charge a bumper amount , ypu can check out EC@ pricing from this site 
+Meanwhile EC2 charges hour based , if your app in up and running for 24/7 then it will charge a bumper amount , you can check out EC2 pricing from this site 
 [EC2 pricing](https://instances.vantage.sh/)
 
 AWS lambda charges for what you use , it is based on requests your app receives but EC2 will charge even if your app has ZERO traffic as its just running. <br/>
