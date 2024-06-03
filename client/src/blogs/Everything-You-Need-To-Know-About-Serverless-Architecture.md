@@ -10,7 +10,7 @@ This allows developers to concentrate entirely on writing code, while the cloud 
 
 
 To use serverless functions, all a developer has to do is write the function code and deploy it to a managed environment. A typical serverless function process would look like this: <br/>
-- **Writing a function.** Developers create a function for a specific job by just uploading the code onto the cloud, functions like handling form submissions or user logins. <br/>
+- Writing a function. Developers create a function for a specific job by just uploading the code onto the cloud, functions like handling form submissions or user logins. <br/>
 - **Defining an event.** They specify what triggers the function, like when someone clicks a button or changes data in a database. <br/>
 - **Triggering an event.** Users do something, like clicking a button, to make the function start running. <br/>
 - **Deploying and executing a function.** When the event happens, the cloud service provider starts running the function to do its job. <br/>
