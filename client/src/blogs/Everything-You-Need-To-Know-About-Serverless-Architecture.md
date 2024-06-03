@@ -37,11 +37,13 @@ AWS lambda charges for what you use , it is based on requests your app receives 
 - **Cold Start Latency:** *Initial request to a serverless function can experience delay due to container startup.*
 - **Vendor Lock-In:** *Dependence on a specific cloud provider’s ecosystem can make migration challenging.*
 - **Limited Execution Time:** *Functions often have execution time limits, which may not be suitable for long-running processes.*
-
+<br/>
+<br/>
 For a backend Application , we have to connect with our DB , if we deploy our app into AWS lambda then for every request and for each time the new connection with DB will be created ,
 as Lambda instance have a cold start . on the other hand EC2 instance will be running continously it will create only one DB connection and it will maintained until the next new build.
 
-
+<br/>
+<br/>
 In conclusion, the choice between monolithic and serverless architectures ultimately depends on the specific needs and goals of your application. While monolithic architectures offer simplicity and familiarity, serverless architectures provide unparalleled flexibility, scalability, and cost-efficiency in today's dynamic cloud environment.
 
 By understanding the key differences and trade-offs between these two approaches, developers can make informed decisions to architect robust and resilient applications that meet the demands of modern software development.
